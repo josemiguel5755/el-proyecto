@@ -1,0 +1,160 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+body{
+    background-color: #031D45;
+    overflow-x: hidden;
+   
+  
+}
+
+.linea{
+    background-color: rgba(217, 217, 217, 1);
+    height: 1230px;
+    padding: 5px;
+    width: 20px;
+   position: absolute;
+   bottom: 1px;
+    
+   
+}
+
+.linea2{
+    background-color: rgba(217, 217, 217, 1);
+    height: 1200px;
+    padding: 5px;
+    width: 20px;
+    position: absolute;
+    left: 30px;
+    bottom: 1px;
+    
+    
+}
+
+
+h1{
+    transform: translate(120px);
+    font-family: Limelight;
+    width: 250px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    margin-top: 40px;
+    font-size: 28px;
+}
+
+span{
+  font-family: Just Another Hand;
+  color: rgb(255, 255, 255);
+  font-weight: normal;
+  margin-left: 27px;
+}
+
+.estudiante{
+    display: flex;
+    justify-content: right;
+    transform: translateY(-109px);
+    margin-right: 30px;
+    
+}
+
+.estudiante img{
+    width: 50px;
+    height: 50px;
+    margin: -20px;
+}
+
+.estudiante h4{
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    margin-right: 25px;
+    padding: 5px;
+    background-color: rgba(217, 217, 217, 33%);
+}
+
+header ul{
+    margin-left: 70px;
+}
+
+
+
+ul li{
+    margin: 30px;
+   
+}
+
+li a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    padding: 5px;
+    background-color: rgba(217, 217, 217, 12%);
+}
+
+li{
+    list-style: none;
+   font-size: 25px;
+}
+
+li img{
+    float: left;
+   width: 34px;
+    margin-right: 10px;
+}
+
+h2{
+    font-size: 20px;
+   text-align:right ;
+    margin-right: 180px;
+    transform: translateY(-30px);
+    color: rgb(255, 255, 255);
+    
+}
+
+main{
+    display: grid;
+    grid-gap: 2rem, 1rem;
+    grid-template-areas:
+    "figure";
+    grid-template-columns: 2fr 6fr 4fr;
+    grid-template-rows: 3rem;
+    margin: 0 34rem;
+   transform: translateY(-400px);
+}
+
+p{
+    width: 500px;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+}
+
+main h4{
+    font-size: 40px;
+   position: absolute;
+   bottom: 80px;
+   left: 60px;
+   width: 600px;
+   color: rgb(255, 255, 255);
+}
+
+main img{
+    width: 300px;
+   
+}
+
+aside{
+    margin-top: 80px;
+    display: flex;
+  justify-content: center;
+    flex-flow: column;
+    float: right;
+    transform: translate(-350px);
+}
+
+aside img{
+   line-height: 9px;
+}
+
+

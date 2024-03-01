@@ -1,0 +1,134 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+body{
+    background-color: #031D45;
+    overflow-x: hidden;
+   
+  
+}
+
+.linea{
+    background-color: rgba(217, 217, 217, 1);
+    height: 1230px;
+    padding: 5px;
+    width: 20px;
+   position: absolute;
+   bottom: 1px;
+    
+   
+}
+
+.linea2{
+    background-color: rgba(217, 217, 217, 1);
+    height: 1200px;
+    padding: 5px;
+    width: 20px;
+    position: absolute;
+    left: 30px;
+    bottom: 1px;
+    
+    
+}
+
+
+h1{
+    transform: translate(120px);
+    font-family: Limelight;
+    width: 250px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    margin-top: 40px;
+    font-size: 28px;
+}
+
+span{
+  font-family: Just Another Hand;
+  color: rgb(255, 255, 255);
+  font-weight: normal;
+  margin-left: 27px;
+}
+
+.estudiante{
+    display: flex;
+    justify-content: right;
+    transform: translateY(-60px);
+    margin-right: 30px;
+}
+
+.estudiante img{
+    width: 50px;
+    margin: -20px;
+}
+
+.estudiante h4{
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    margin-right: 25px;
+    padding: 5px;
+    background-color: rgba(217, 217, 217, 33%);
+}
+
+header ul{
+    margin-left: 70px;
+}
+
+ul{
+    padding: 5px;
+   background-color: black;
+   width: 300px;
+}
+
+ul li{
+    margin: 30px;
+   
+}
+
+li a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    padding: 5px;
+    background-color: rgba(217, 217, 217, 12%);
+}
+
+li{
+    list-style: none;
+   font-size: 25px;
+}
+
+li img{
+    float: left;
+    background-color: aliceblue;
+    margin-right: 10px;
+}
+
+main{
+    display: flex;
+    justify-content: center;
+    transform: translateY(-390px);
+}
+
+table{
+    width: 99%;
+    height: 120%;
+  
+    color: aliceblue;
+    text-align: center;
+    font-size: 25px;
+   
+
+}
+
+main h1{
+  margin: -80px;
+   transform: translate(860px);
+ font-size: 33px;
+ width: 700px;
+}
+
+
+

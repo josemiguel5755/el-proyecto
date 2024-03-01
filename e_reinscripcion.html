@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>REINSCIPCION</title>
+</head>
+
+<body>
+    <header>
+        <h1>ALPHA TEAM <span>Educar es redimir</span></h1>
+
+        <div class="linea">
+
+        </div>
+        <div class="linea2">
+
+        </div>
+
+        <div class="estudiante">
+            <h4>Estudiante</h4>
+            <figure>
+                <img src="imagenes/estudiante.png" alt="estudiante" width="31.25" height="34">
+            </figure>
+        </div>
+
+        <ul>
+            <li><a href="e_miscalificaciones.html">MIS CALIFICACIONES
+                <img src="imagenes/bx-notepad.svg" alt="nota">
+            </a></li>
+            <li><a href="e_tareas.html">TAREAS
+                <img src="imagenes/bx-check-double.svg" alt="visto">
+            </a></li>
+            <li><a href="#e_reinscripcion.html">REINSCRIPCION
+                <img src="imagenes/bx-edit.svg" alt="reinscripcion">
+            </a></li>
+            <li><a href="e_informaciondocente.html">INFORMACION DOCENTE
+                <img src="imagenes/bxs-graduation.svg" alt="graduacion">
+            </a></li>
+            <li><a href="e_evaluacion.html">EVALUACIONES
+                <img src="imagenes/bx-edit-alt.svg" alt="evaluar">
+            </a></li>
+            <li><a href="e_ayuda.html">AYUDA
+                <img src="imagenes/bx-help-circle.svg" alt="ayuda">
+            </a></li>
+            <li><a href="iniciodesesion.html">CERRAR SESION
+                <img src="imagenes/bx-log-out.svg" alt="cerrar">
+            </a></li>
+        </ul>
+    </header>
+    <main>
+        <section>
+            <form class="reinscripcion">
+                <fieldset>
+                    <legend>DATOS PERSONALES</legend>
+
+                    <label for="nombre">Nombre</label>
+                    <input type="text" id="nombre" placeholder="Introduzca su nombre" required>
+
+                    <label for="ape">Apellidos</label>
+                    <input type="text" id="ape" placeholder="Introduza sus apellidos" required>
+                    
+                
+
+                <label for="edad">Edad</label>
+                <input type="number" id="edad" required>
+
+                <label for="nac">Fecha de nacimiento</label>
+                <input type="date" id="nac" required>
+                
+
+                <label for="gen">Sexo</label>
+                <input type="radio" name="gen" value="Femenino">Femenino
+                <input type="radio" name="gen" value="Masculino">Masculino
+                </fieldset>
+                
+
+
+                <fieldset>
+                    <legend>DIRECCION</legend>
+
+                    <label for="origen">Nacionalidad</label>
+                    <input type="radio" name="origen" value="Dominicana">Dominicana
+                    <input type="radio" name="origen" value="Extranjera">Extranjera
+                    <br><br>
+
+                    <label for="calle">Calle</label>
+                    <input type="text" id="calle" required>
+
+                    <label for="provincia">Provincia</label>
+                    <select name="provincia" id="provincia">
+                        <option value="">- Elija una opción -</option>
+                        <option value="">Santiago</option>    
+                        <option value="">La Vega</option> 
+                        <option value="">Santiago Rodriguez</option> 
+                        <option value="">Pedernales</option> 
+                        <option value="">Barahona</option> 
+                        <option value="">Santo Domingo</option> 
+                        <option value="">Azua</option> 
+                        <option value="">Baoruco</option> 
+                        <option value="">Dajabón</option> 
+                        <option value="">Distrito Nacional</option> 
+                        <option value="">Duarte</option> 
+                        <option value="">Elias Piña</option> 
+                        <option value="">El Seibo</option> 
+                        <option value="">Hato Mayor</option> 
+                        <option value="">Espaillat</option> 
+                        <option value="">Independencia</option> 
+                        <option value="">La Altagracia</option> 
+                        <option value="">La Romana</option> 
+                        <option value="">Maria Trinidad Sánchez</option> 
+                        <option value="">Monseñor Nouel</option> 
+                        <option value="">Monte Cristi</option> 
+                        <option value="">Monte Plata</option> 
+                        <option value="">Valverde</option> 
+                        <option value="">Peravia</option> 
+                        <option value="">Puerto Plata</option> 
+                        <option value="">Salcedo</option> 
+                        <option value="">Samaná</option> 
+                        <option value="">Sánchez Ramirez</option> 
+                        <option value="">San Cristóbal</option> 
+                        <option value="">San Jose De Ocoa</option> 
+                        <option value="">San Juan</option> 
+                        </select>
+
+                    <label for="sec">Sector</label>
+                    <input type="text" id="sec" placeholder="Digite aqui su sector" required >
+                </fieldset>
+                
+                <fieldset class>
+                    <legend>EMAIL Y TELEFONOS</legend>
+                    <label for="mail">Correo electrónico</label>
+                    <input type="email" id="mail" placeholder="ej: maria05@gmail.com" required>
+                    <br><br>
+
+                    <label for="tel">Telefono Residencial</label>
+                    <input type="text" id="tel" placeholder="Digite un numero de telefono">
+
+                    <label for="tele">Celular</label>
+                    <input type="text" id="tele" placeholder="Digite su numero de celular" required>
+                    <br><br>
+                    <label for="responsable">Tutor/a</label>
+                    <input type="text" id="responsable" placeholder="Introduza el nombre de su tutor" required>
+
+                    <label for="tele">Número telefónico de Tutor</label>
+                    <input type="tel" id="tele" required>
+                </fieldset>
+
+                <fieldset class="">
+                    <legend>INFORMACIONES ACADEMICAS</legend>
+                    <label for="curso1">Curso Promovido</label>
+                    <select name="curso1" id="curso1" required>
+                        <option value="">-Elija un curso-</option>
+                        <option value="1ro">1ro</option>
+                        <option value="2do">2do</option>
+                        <option value="3ro">3ro</option>
+                        <option value="4to">4to</option>
+                        <option value="5to">5to</option>
+                        <option value="6to">6to</option>
+                    </select>
+                    <br><br>
+
+                    <label for="hora">TANDA</label>
+                    <br>
+                    <input type="radio" name="hora" required value="Mañana">Matutina
+                    <input type="radio" name="hora" required value="tarde">Vespertina
+                    </fielsed>
+
+                    <input type="reset" value="Borrar">
+                    <input type="submit" value="Enviar Formulario">
+                </form>
+        </section>
+    </main>
+</body>
+
+
+
